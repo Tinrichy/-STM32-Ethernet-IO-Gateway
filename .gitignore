@@ -1,0 +1,31 @@
+# ===== 编译输出（最重要）=====
+Debug/
+Release/
+build/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.d
+
+# ===== IDE 个人配置 =====
+.settings/
+.metadata/
+*.launch
+*.uvguix.*
+*.uvoptx
+*.mxproject
+
+# ===== 调试/备份文件 =====
+*.bak
+*.log
+*~
+
+# ===== 操作系统文件 =====
+.DS_Store
+Thumbs.db
+
+# 本地说明文档，不提交
+/说明文档/
